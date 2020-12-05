@@ -1,0 +1,19 @@
+figure {
+    text-align: center;
+}
+
+figure > img{
+    width: 150px;
+    height: 150px;
+}
+
+.preco-prod{
+    text-decoration: line-through;
+    font-size: 12pt;
+}
+
+.precofinal-prod {
+    font-size: 16pt;
+    text-decoration: underline;
+    color: red;
+}
