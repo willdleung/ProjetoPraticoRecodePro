@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 576px);
+
+/*Div1 página inicial index*/
+.div1 {
+    background-image: url(../imagens/BGDIV2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 525px;
+    text-align: center;
+}
+
+.div2 {
+    background-color: rgb(212, 229, 236, 0.5);
+}
+
+.div1produtos {
+    background-image: url(../imagens/BGDIVPRODUTOS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%; height: 525px;
+    text-align: center;
+}
+
+.div1lojas {
+    background-image: url(../imagens/BGDIV3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%; height: 525px;
+    text-align: center;
+    
+}
+
+.div1contato {
+    background-image: url(../imagens/BGDIV4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%; height: 525px;
+    text-align: center;
+}
+
+/*Menu Principal*/
+
+.menu {
+    position: fixed;
+    background-color:#D4E5EC ;
+    padding: 15px;
+    margin-top: 4px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+.menu a {
+    color: #E39B6E;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0px 100px 0px 100px;
+}   
+/* Fim Menu Principal*/
+
+/*Título Página Inicial*/
+.div1 h1 {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:195px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 5px #E39B6E ;
+}
+
+.pesquisa input {
+    border-radius: 10px;
+}
+
+.div2nossasLojas h2 {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.div2Contato h2 {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+/*Página produtos - tabela com categorias e produtos disponíveis*/
+
+.div2produtos h2 {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Produtos */
+
+.categorias {
+    float: left;
+}
+
+.categorias {
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid;
+}
+
+.dropdown-item {
+    font-size: 20px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.box_produtos {
+    padding: 10px;
+    text-align: center;
+}
+
+.box_produtos img {
+    padding-bottom: 10px;
+}
+
+
+.descrição {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.preço {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: red;
+}
+
+/* Fim produtos */
+
+/*Tabela Contato*/
+
+.tabela_contato {
+    width: 100%;
+}
+
+.tabela_contato td {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tabela_contato img {
+    width: 10%;
+}
+
+.tabela_contato font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.form_contato h4 {
+    color: black ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px #E39B6E ;
+}
+
+
+/* Final Página produtos - tabela com categorias e produtos disponíveis*/
+
+p {
+    color: black ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px #E39B6E ;
+}
+
+/*Barra de pesquisa*/
+
+.div1 input {
+    margin-top: 32px;
+    width: 50%;
+    height: 42px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.div1produtos input {
+    margin-top: 250px;
+    width: 50%;
+    height: 42px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.div1lojas input {
+    margin-top: 250px;
+    width: 50%;
+    height: 42px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.div1contato input {
+    margin-top: 250px;
+    width: 50%;
+    height: 42px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* Fim Barra de pesquisa*/
+
+
+/* Início Footer/ Rodapé*/
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    padding: 25px 75px;
+}
+
+#rodape {
+    padding-top: 300px;
+    text-align: center;
+}
+
+p img {
+    padding-bottom: 50px;
+}
+
+#logo_recode {
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+/*Fim Footer/ Rodapé*/
