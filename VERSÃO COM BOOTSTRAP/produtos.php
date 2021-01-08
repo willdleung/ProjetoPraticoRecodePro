@@ -77,7 +77,7 @@
     ?>
 
             <div class=" box_produtos" id="<?php echo $rows["categoria"]; ?>" style="display: block;">
-                <img src="<?php echo $rows["imagem"]; ?>" width="120px" onclick="destaque(this)">
+                <img src="./imagens/<?php echo $rows["imagem"]; ?>" width="120px" onclick="destaque(this)">
                 <div class="descrição"><?php echo $rows["descrição"]; ?></div>
                 <br>
                 <hr>
