@@ -8,7 +8,7 @@ export default function Produtos(){
     
     useEffect(async () => { // Quando o componente for criado obter a api de forma assincrona. No entando haverá esperas em sequência, quando necessário
 
-    const resposta = await fetch("http://localhost/git%20ProjetoPraticoRecodePro/ProjetoPraticoRecodePro/projetos-react/Models/ProdutoJSON.php");
+    const resposta = await fetch("http://localhost:3333/produtos");
     const dados = await resposta.json();
     
     setProdutos(dados);

@@ -1,0 +1,20 @@
+.tabela_contato {
+    width: 100%;
+}
+
+.tabela_contato td {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tabela_contato img {
+    width: 10%;
+}
+
+.tabela_contato font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}

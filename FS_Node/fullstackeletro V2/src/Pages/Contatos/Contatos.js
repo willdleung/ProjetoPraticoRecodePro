@@ -2,8 +2,6 @@ import './Contatos.css'
 
 export default function Contatos(){
 
-    const url="http://localhost:3000/contatos";
-
     return (
         <div class="container">
 
