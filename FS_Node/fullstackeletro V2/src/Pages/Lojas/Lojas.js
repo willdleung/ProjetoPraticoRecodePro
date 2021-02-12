@@ -1,14 +1,14 @@
 export default function Lojas(){
     
     return (
-        <div class="container-fluid text-center">
-            <table class="table table-bordered table-hover table-responsive-sm text-center mt-4">
-                <thead class="thead-light">
+        <div className="container-fluid text-center">
+            <table className="table table-bordered table-hover table-responsive-sm text-center mt-4">
+                <thead className="thead-light">
                     <tr>
-                        <th class="table-info" scope="col">Estado</th>
-                        <th class="table-info" scope="col">Rio de Janeiro</th>
-                        <th class="table-info" scope="col">São Paulo</th>
-                        <th class="table-info" scope="col">Santa Catarina</th>
+                        <th className="table-info" scope="col">Estado</th>
+                        <th className="table-info" scope="col">Rio de Janeiro</th>
+                        <th className="table-info" scope="col">São Paulo</th>
+                        <th className="table-info" scope="col">Santa Catarina</th>
                     </tr>
                 </thead>
                 <tbody>

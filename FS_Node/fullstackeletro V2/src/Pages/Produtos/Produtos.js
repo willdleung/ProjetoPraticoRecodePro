@@ -8,7 +8,7 @@ export default function Produtos(){
     
     useEffect(async () => { // Quando o componente for criado obter a api de forma assincrona. No entando haverá esperas em sequência, quando necessário
 
-    const resposta = await fetch("http://localhost:3333/produtos");
+    const resposta = await fetch("http://localhost:3000/produtos");
     const dados = await resposta.json();
     
     setProdutos(dados);
@@ -18,38 +18,38 @@ export default function Produtos(){
     return (
         <div>
 
-        {/* <div class="dropdown categorias shadow rounded ">
-            <button class="btn btn-transparent btn-lg btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {/* <div className="dropdown categorias shadow rounded ">
+            <button className="btn btn-transparent btn-lg btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categoria de produtos
             </button>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                <h6 class="dropdown header text-center font-weight-bold"><u>FILTRO</u></h6>
-                <button class="dropdown-item" type="button" onclick="exibir_todos()">Todos</button>
-                <div class="dropdown-divider"></div>
-                <button class="dropdown-item" type="button" onclick="exibir_categoria('geladeira')">Geladeiras</button>
-                <button class="dropdown-item" type="button" onclick="exibir_categoria('fogão')">Fogões</button>
-                <button class="dropdown-item" type="button" onclick="exibir_categoria('microondas')">Microondas</button>
-                <button class="dropdown-item" type="button" onclick="exibir_categoria('lava_roupas')">Lavadoura de roupas</button>
-                <button class="dropdown-item" type="button" onclick="exibir_categoria('lava_loucas')">Lava-louças</button>
+            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                <h6 className="dropdown header text-center font-weight-bold"><u>FILTRO</u></h6>
+                <button className="dropdown-item" type="button" onclick="exibir_todos()">Todos</button>
+                <div className="dropdown-divider"></div>
+                <button className="dropdown-item" type="button" onclick="exibir_categoria('geladeira')">Geladeiras</button>
+                <button className="dropdown-item" type="button" onclick="exibir_categoria('fogão')">Fogões</button>
+                <button className="dropdown-item" type="button" onclick="exibir_categoria('microondas')">Microondas</button>
+                <button className="dropdown-item" type="button" onclick="exibir_categoria('lava_roupas')">Lavadoura de roupas</button>
+                <button className="dropdown-item" type="button" onclick="exibir_categoria('lava_loucas')">Lava-louças</button>
             </div>
         </div> */}  
 
             <div className="row">
 
                 <div className="col-4">
-                    <div class="dropdown categorias ">
-                        <button class="btn btn-transparent btn-lg dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div className="dropdown categorias ">
+                        <button className="btn btn-transparent btn-lg dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Categoria de produtos
                         </button>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                            <h6 class="dropdown header text-center font-weight-bold"><u>FILTRO</u></h6>
-                            <button class="dropdown-item" type="button">Todos</button>
-                            <div class="dropdown-divider"></div>
-                            <button class="dropdown-item" type="button">Geladeiras</button>
-                            <button class="dropdown-item" type="button">Fogões</button>
-                            <button class="dropdown-item" type="button">Microondas</button>
-                            <button class="dropdown-item" type="button">Lavadoura de roupas</button>
-                            <button class="dropdown-item" type="button">Lava-louças</button>
+                        <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                            <h6 className="dropdown header text-center font-weight-bold"><u>FILTRO</u></h6>
+                            <button className="dropdown-item" type="button">Todos</button>
+                            <div className="dropdown-divider"></div>
+                            <button className="dropdown-item" type="button">Geladeiras</button>
+                            <button className="dropdown-item" type="button">Fogões</button>
+                            <button className="dropdown-item" type="button">Microondas</button>
+                            <button className="dropdown-item" type="button">Lavadoura de roupas</button>
+                            <button className="dropdown-item" type="button">Lava-louças</button>
                         </div>
                     </div>
                 </div>
